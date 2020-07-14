@@ -25,7 +25,7 @@
 
 <body>
 
-	<!-- Navbar -->
+  <!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
 	      <a class="navbar-brand font-weight-bold" href="">
@@ -41,7 +41,7 @@
 	            <a class="nav-link font-weight-bold text-dark" href="<?php echo base_url('anasayfa/teklifal'); ?>">Teklif Al</a>
 	        </ul>
 
-					<form action="<?php echo base_url('anasayfa/bireyselgiris'); ?>">
+          <form action="<?php echo base_url('anasayfa/bireyselgiris'); ?>">
     				<button class="btn btn-danger" type="submit">Bireysel Girişi</button>
   				</form>
 					<form action="<?php echo base_url('anasayfa/acentegiris'); ?>">
@@ -50,60 +50,49 @@
 	      </div>
 	    </div>
 	  </nav>
-		<!-- 2 -->
-		  <div class="hero-wrap" style="background-image: url('img/aile.png');" data-stellar-background-ratio="0.5">
-		  <div class="container">
-				</br></br>
-		    <div class="h2 pb-3 text-center text-white" data-aos="fade-up">En Uygun Sigorta Tekliflerini Ücretsiz Alın!</div>
-		    <p class="h4 px-5 pb-5 text-center text-white" data-aos="fade-up">Türkiye'nin Her ili ve İlçesinde Hizmet Veren 16.000 Profesyonel Sigorta Acentelerinden
-Ücretsiz Teklif Almak İçin Ürün Seçiniz !</p>
-		    <div class="row">
-		      <div class="col-md-3">
-          	<div class="text-center text-white">
-							<a href="">
-								<img src="<?php echo base_url('img/trafik.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
-							</a>
-		            <div class="h5 pb-3">Trafik Teklifi Al</div>
+    <!-- Form -->
+    <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+    <div class="card card0 border-0">
+        <div class="row d-flex px-5">
+            <div class="col-lg-6"><br><br>
+                <div class="card1 pb-5r">
 
-		         </div>
-		      </div>
-		      <div class="col-md-3">
-		          <div class="text-center text-white">
-								<a href="">
-					        <img src="<?php echo base_url('img/kasko.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
-					      </a>
-		            <div class="h5 pb-3">Kasko Teklifi Al</div>
-							</br></br>
-							</div>
-		      </div>
-		      <div class="col-md-3">
+                    <div class="row"> <img src="../img/teklifceptelogo.png" style="width:128px;height:100px;" class="logo"> </div>
 
-		          <div class="text-center text-white">
-								<a href="">
-					        <img src="<?php echo base_url('img/dask.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
-					      </a>
-								<div class="h5 pb-3">Dask Sigortası Teklifi Al</div>
+                </div>
+                <div>
+                  <h2>Teklif Cepteye Hoşgeldiniz <h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <p>Türkiye' nin Her il ve İlçesinde Bulunan Sigorta Acentelerinden Tamamen <b>Ücretsiz</b> Teklif veya Teklifler Alın ! </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card2 card border-0 px-4 py-5">
+                    <div class="row mb-4 px-3">
+                        <h3 class="mb-0 mr-4 mt-2">Bireysel Hesabınıza Giriş Yapın!</h3>
+                    </div>
+                    <div class="row px-3 mb-4">
+                        <div class="line"></div> <small class="or text-center">Bireysel hesabınıza giriş yapmak için teklif almış olmalısınız.</small>
+                        <div class="line"></div>
+                    </div>
+                    <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Kullanıcı Adınız</label>
+    <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Kullanıcı Adınız">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Şifreniz</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Şifreniz">
+  </div>
+  <button type="submit" class="btn btn-primary">Giriş Yap</button>
+</form>
+                </div>
+            </div>
+        </div>
 
-		          </div>
+    </div>
+</div>
+  </body>
 
-		      </div>
-					<div class="col-md-3">
-
-		          <div class="text-center text-white">
-								<a href="">
-					        <img src="<?php echo base_url('img/seyahat.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
-					      </a>
-		            <div class="h5 pb-3">Seyahat Sağlık Teklifi Al</div>
-
-		          </div>
-
-		      </div>
-		    </div>
-		  </div>
-		</div>
-
-
-
-</body>
-
-</html>
+  </html>

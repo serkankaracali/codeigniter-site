@@ -25,7 +25,7 @@
 
 <body>
 
-	<!-- Navbar -->
+  <!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
 	      <a class="navbar-brand font-weight-bold" href="">
@@ -41,7 +41,7 @@
 	            <a class="nav-link font-weight-bold text-dark" href="<?php echo base_url('anasayfa/teklifal'); ?>">Teklif Al</a>
 	        </ul>
 
-					<form action="<?php echo base_url('anasayfa/bireyselgiris'); ?>">
+          <form action="<?php echo base_url('anasayfa/bireyselgiris'); ?>">
     				<button class="btn btn-danger" type="submit">Bireysel Girişi</button>
   				</form>
 					<form action="<?php echo base_url('anasayfa/acentegiris'); ?>">
@@ -50,8 +50,8 @@
 	      </div>
 	    </div>
 	  </nav>
-		<!-- 2 -->
-		  <div class="hero-wrap" style="background-image: url('img/aile.png');" data-stellar-background-ratio="0.5">
+    <!-- 2 -->
+		  <div class="hero-wrap" style="background-image: url('../img/aile2.jpg');" data-stellar-background-ratio="0.5">
 		  <div class="container">
 				</br></br>
 		    <div class="h2 pb-3 text-center text-white" data-aos="fade-up">En Uygun Sigorta Tekliflerini Ücretsiz Alın!</div>
@@ -101,9 +101,6 @@
 		    </div>
 		  </div>
 		</div>
+  </body>
 
-
-
-</body>
-
-</html>
+  </html>
