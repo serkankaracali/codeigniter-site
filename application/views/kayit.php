@@ -64,29 +64,59 @@
                   <h2>Teklif Cepteye Hoşgeldiniz <h2>
                 </div>
                 <div class="d-flex justify-content-center">
-                  <p>Türkiye' nin Her il ve İlçesinde Bulunan Sigorta Acentelerinden Tamamen <b>Ücretsiz</b> Teklif veya Teklifler Alın ! </p>
+                  <p>Türkiye' nin her il ve ilçesinden talep edilen teklif detaylarına tamamen <b>ücretsiz</b> ulaşın!</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="card2 card border-0 px-4 py-5">
                     <div class="row mb-4 px-3">
-                        <h3 class="mb-0 mr-4 mt-2">Bireysel Hesabınıza Giriş Yapın!</h3>
-                    </div>
+                        <h3 class="mb-0 mr-4 mt-2">Kayıt Ol</h3>
+                    </div >
+
                     <div class="row px-3 mb-4">
-                        <div class="line"></div> <small class="or text-center">Bireysel hesabınıza giriş yapmak için teklif almış olmalısınız.</small>
-                        <div class="line"></div>
+                      <style>
+                      a {color: #00f;}
+                      </style>
+                      <a href="<?php echo base_url('anasayfa/acentegiris'); ?>">Üye Misiniz? Üye Girişi İçin Tıklayın.</a>
                     </div>
+
                     <form>
-            <div class="form-group">
-              <label>Kullanıcı Adınız</label>
-              <input type="text" class="form-control" required  placeholder="Kullanıcı Adınız">
-            </div>
-            <div class="form-group">
-              <label>Şifreniz</label>
-              <input type="password" class="form-control" required placeholder="Şifreniz">
-            </div>
-            <button type="submit" class="btn btn-primary">Giriş Yap</button>
-          </form>
+                      <label>Acente Tipini Seçiniz</label>
+                      <select class="browser-default custom-select" required>
+                        <option selected=""></option>
+                        <option value="1">Şahıs</option>
+                        <option value="2">Tüzel</option>
+                      </select>
+                  <div class="form-group">
+                    <label>Levha Kayıt Numaranız</label>
+                    <input type="text" class="form-control" required placeholder="T0001-123456">
+                  </div>
+                  <div class="form-group">
+                    <label >Adınız ve Soyadınız</label>
+                    <input type="text" class="form-control" required placeholder="Adınız ve Soyadınız">
+                  </div>
+                  <div class="form-group">
+                    <label>E-Mail Adresiniz</label>
+                    <input type="email" class="form-control" required placeholder="E-Mail Adresiniz">
+                  </div>
+                  <div class="form-group">
+                    <label >Cep Telefonu</label>
+                    <input type="text" class="form-control" required placeholder="(___) ___-____">
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" >
+                    <label class="form-check-label"><a href=""><u>Kullanıcı sözleşmesini okudum ve kabul ediyorum.<u></a></label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" >
+                    <label class="form-check-label"><a href=""><u>Kişisel Verilerin Korunması Hakkındaki Bilgilendirme Metnini okudum kabul ediyorum.<u></a></label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" >
+                    <label class="form-check-label"><a href=""><u>Ürünler, yenilikler ve kampanyalar hakkında e-bülten ve sms almak istiyorum.<u></a></label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                </form>
                 </div>
             </div>
         </div>

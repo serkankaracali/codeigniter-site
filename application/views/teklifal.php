@@ -10,14 +10,16 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" type = "text/css" href="<?php echo base_url(); ?>css/bootstrap.css">
   <!-- Custom -->
-  <link rel="stylesheet" type = "text/css"
-   href = "<?php echo base_url(); ?>css/style.css">
+  <link rel="stylesheet" type = "text/css" hr/ornek/anasayfaef = "<?php echo base_url(); ?>css/style.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/<?php echo base_url(); ?>css/bootstrap-steps.min.css" />
   <!-- Lightbox -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>css/lightbox.min.css">
 	<script type = 'text/javascript' src="<?php echo base_url(); ?>js/jquery-3.3.1.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/bootstrap.bundle.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/lightbox.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/main.js"></script>
+
 
   <title> En Uygun Sigorta Teklifleri Ücretsiz Cebinizde | Teklif Cepte</title>
   <link rel="icon" href=''>
@@ -28,7 +30,7 @@
   <!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
-	      <a class="navbar-brand font-weight-bold" href="">
+	      <a class="navbar-brand font-weight-bold" href="/ornek/anasayfa">
 	        <img src="<?php echo base_url('img/teklifceptepin.svg'); ?>" height="55" width="75" class="logo" alt="a">Teklif Cepte
 	      </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
@@ -60,8 +62,8 @@
 		    <div class="row">
 		      <div class="col-md-3">
           	<div class="text-center text-white">
-							<a href="">
-								<img src="<?php echo base_url('img/trafik.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
+							<a href="<?php echo base_url('anasayfa/trafikteklif'); ?>">
+								<img src="<?php echo base_url('img/trafik.png'); ?>" style="width:175px;height:175px;" class="logo" alt="a">
 							</a>
 		            <div class="h5 pb-3">Trafik Teklifi Al</div>
 
@@ -69,8 +71,8 @@
 		      </div>
 		      <div class="col-md-3">
 		          <div class="text-center text-white">
-								<a href="">
-					        <img src="<?php echo base_url('img/kasko.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
+								<a href="<?php echo base_url('anasayfa/kaskoteklif'); ?>">
+					        <img src="<?php echo base_url('img/kasko.png'); ?>" style="width:175px;height:175px;" class="logo" alt="a">
 					      </a>
 		            <div class="h5 pb-3">Kasko Teklifi Al</div>
 							</br></br>
@@ -79,8 +81,8 @@
 		      <div class="col-md-3">
 
 		          <div class="text-center text-white">
-								<a href="">
-					        <img src="<?php echo base_url('img/dask.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
+								<a href="<?php echo base_url('anasayfa/daskteklif'); ?>">
+					        <img src="<?php echo base_url('img/dask.png'); ?>" style="width:175px;height:175px;" class="logo" alt="a">
 					      </a>
 								<div class="h5 pb-3">Dask Sigortası Teklifi Al</div>
 
@@ -90,8 +92,8 @@
 					<div class="col-md-3">
 
 		          <div class="text-center text-white">
-								<a href="">
-					        <img src="<?php echo base_url('img/seyahat.png'); ?>" style="width:256px;height:256px;" class="logo" alt="a">
+								<a href="<?php echo base_url('anasayfa/seyahatteklif'); ?>">
+					        <img src="<?php echo base_url('img/seyahat.png'); ?>" style="width:175px;height:175px;" class="logo" alt="a">
 					      </a>
 		            <div class="h5 pb-3">Seyahat Sağlık Teklifi Al</div>
 

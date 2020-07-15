@@ -23,6 +23,29 @@ class Anasayfa extends CI_Controller {
 
 	public function acentegiris()
 	{
-		$this->load->view('acenteler');
+		$this->load->view('kurumsal');
+	}
+
+	public function kayit()
+	{
+		$this->load->view('kayit');
+	}
+
+	public function trafikteklif()
+	{
+		$this->load->view('teklifler/trafikteklif');
+	}
+
+	public function kaskoteklif()
+	{
+		$this->load->view('teklifler/kaskoteklif');
+	}
+	public function daskteklif()
+	{
+		$this->load->view('teklifler/daskteklif');
+	}
+	public function seyahatteklif()
+	{
+		$this->load->view('teklifler/seyahatteklif');
 	}
 }
