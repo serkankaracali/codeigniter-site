@@ -110,9 +110,9 @@
 		            <div class="h5 pb-3">Seyahat Sağlık Teklifi Al</div>
 
 		          </div>
-
-
+              <br><br><br><br><br>
 		      </div>
+
 		    </div>
 		  </div>
 		</div>

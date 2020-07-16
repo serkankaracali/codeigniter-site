@@ -40,10 +40,12 @@ class Anasayfa extends CI_Controller {
 	{
 		$this->load->view('teklifler/kaskoteklif');
 	}
+
 	public function daskteklif()
 	{
 		$this->load->view('teklifler/daskteklif');
 	}
+
 	public function seyahatteklif()
 	{
 		$this->load->view('teklifler/seyahatteklif');

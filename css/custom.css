@@ -1,9 +1,4 @@
-/* Latest compiled and minified CSS included as External Resource*/
-
-/* Optional theme */
-
-/*@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');*/
- body {
+  body {
     margin-top:30px;
 }
 .stepwizard-step p {
