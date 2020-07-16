@@ -19,7 +19,7 @@
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/bootstrap.bundle.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/lightbox.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/main.js"></script>
-
+  
 
   <title> En Uygun Sigorta Teklifleri Ücretsiz Cebinizde | Teklif Cepte</title>
   <link rel="icon" href=''>

@@ -42,7 +42,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
-	      <a class="navbar-brand font-weight-bold" href="">
+	      <a class="navbar-brand font-weight-bold" href="/ornek/anasayfa">
 	        <img src="<?php echo base_url('img/teklifceptepin.svg'); ?>" height="55" width="75" class="logo" alt="a">Teklif Cepte
 	      </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">

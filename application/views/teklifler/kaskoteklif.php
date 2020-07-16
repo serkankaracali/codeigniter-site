@@ -32,6 +32,14 @@
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/custom.js"></script>
   <title> En Uygun Sigorta Teklifleri Ücretsiz Cebinizde | Teklif Cepte</title>
   <link rel="icon" href=''>
+
+  <style>
+  body {
+
+    margin: 0;
+    padding: 0;
+  }
+  </style>
 </head>
 
 <body>
