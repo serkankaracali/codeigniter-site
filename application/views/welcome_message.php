@@ -9,6 +9,7 @@
   <link rel="stylesheet" type = "text/css" href="<?php echo base_url(); ?>css/all.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" type = "text/css" href="<?php echo base_url(); ?>css/bootstrap.css">
+  <link rel="stylesheet" type = "text/css" href="<?php echo base_url(); ?>css/bootstrap.min.css">
   <!-- Custom -->
   <link rel="stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/style.css">
   <link rel="stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/custom.css">
@@ -19,15 +20,14 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" rel="stylesheet">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script type = 'text/javascript' src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<script type = 'text/javascript' src="<?php echo base_url(); ?>js/jquery-3.3.1.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/bootstrap.bundle.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/lightbox.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/main.js"></script>
-  <script type = 'text/javascript' src="<?php echo base_url(); ?>js/jquery.steps.js"></script>
-  <script type = 'text/javascript' src="<?php echo base_url(); ?>js/jquery.steps.min.js"></script>
+
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/custom.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/aos.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/ekko-lightbox.min.js"></script>
@@ -68,8 +68,8 @@
 		  <div class="hero-wrap" style="background-image: url('img/aile.png');" data-stellar-background-ratio="0.5">
 		  <div class="container">
 				</br></br>
-		    <div class="h2 pb-3 text-center text-white" data-aos="fade-up">En Uygun Sigorta Tekliflerini Ücretsiz Alın!</div>
-		    <p class="h4 px-5 pb-5 text-center text-white" data-aos="fade-up">Türkiye'nin Her ili ve İlçesinde Hizmet Veren 16.000 Profesyonel Sigorta Acentelerinden
+		    <div class="h2 pb-3 text-center text-white">En Uygun Sigorta Tekliflerini Ücretsiz Alın!</div>
+		    <p class="h4 px-5 pb-5 text-center text-white">Türkiye'nin Her ili ve İlçesinde Hizmet Veren 16.000 Profesyonel Sigorta Acentelerinden
 Ücretsiz Teklif Almak İçin Ürün Seçiniz !</p>
 		    <div class="row">
 		      <div class="col-md-3">
@@ -116,6 +116,8 @@
 		    </div>
 		  </div>
 		</div>
+
+    <!-- 3 -->
     <div class="row">
       <div class="col-sm">
         <img src="<?php echo base_url('img/el.jpg'); ?>"  alt="a">

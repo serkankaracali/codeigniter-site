@@ -11,6 +11,7 @@
   <link rel="stylesheet" type = "text/css" href="<?php echo base_url(); ?>css/bootstrap.css">
   <!-- Custom -->
   <link rel="stylesheet" type = "text/css" hr/ornek/anasayfaef = "<?php echo base_url(); ?>css/style.css">
+  <link rel="stylesheet" type = "text/css" href = "<?php echo base_url(); ?>css/custom.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.min.css" />
   <link rel="stylesheet" href="/<?php echo base_url(); ?>css/bootstrap-steps.min.css" />
   <!-- Lightbox -->
@@ -19,10 +20,14 @@
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/bootstrap.bundle.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/lightbox.min.js"></script>
   <script type = 'text/javascript' src="<?php echo base_url(); ?>js/main.js"></script>
+
   
+  <script type = 'text/javascript' src="<?php echo base_url(); ?>js/aos.js"></script>
+  <script type = 'text/javascript' src="<?php echo base_url(); ?>js/ekko-lightbox.min.js"></script>
+
 
   <title> En Uygun Sigorta Teklifleri Ücretsiz Cebinizde | Teklif Cepte</title>
-  <link rel="icon" href=''>
+  <link rel="icon" href="">
 </head>
 
 <body>
@@ -31,16 +36,16 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 	    <div class="container">
 	      <a class="navbar-brand font-weight-bold" href="/ornek/anasayfa">
-	        <img src="<?php echo base_url('img/teklifceptepin.svg'); ?>" height="55" width="75" class="logo" alt="a">Teklif Cepte
+	        <img src="<?php echo base_url('img/teklifceptepin.svg'); ?>" height="55" width="75" class="logo" alt="a">TEKLIF CEPTE
 	      </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
 	        <span class="navbar-toggler-icon"></span>
 	      </button>
 	      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	        <ul class="navbar-nav ml-auto ">
-	            <a class="nav-link font-weight-bold text-dark" href="/ornek/anasayfa">Ana Sayfa</a>
-	            <a class="nav-link font-weight-bold text-dark" href="<?php echo base_url('anasayfa/acenteler'); ?>">Acenteler</a>
-	            <a class="nav-link font-weight-bold text-dark" href="<?php echo base_url('anasayfa/teklifal'); ?>">Teklif Al</a>
+	            <a class="nav-link font-weight-bold text-dark" href="/ornek/anasayfa">ANA SAYFA</a>
+	            <a class="nav-link font-weight-bold text-dark" href="<?php echo base_url('anasayfa/acenteler'); ?>">ACENTELER</a>
+	            <a class="nav-link font-weight-bold text-dark" href="<?php echo base_url('anasayfa/teklifal'); ?>">TEKLIF AL</a>
 	        </ul>
 
           <form action="<?php echo base_url('anasayfa/bireyselgiris'); ?>">
